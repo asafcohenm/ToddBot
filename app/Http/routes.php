@@ -121,7 +121,7 @@ Route::any('/hook', function () {
 	$challenge = Request::get('hub_challenge');
 	$verify_token = Request::get('hub_verify_token');
 
-	if ($verify_token === 'my_verify_token') {
+	if ($verify_token === env('FB_VERIFY_TOKEN')) {
 		echo $challenge;
 	    die();
 	}
