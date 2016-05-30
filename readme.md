@@ -6,9 +6,9 @@ Built on Laravel, deployed to Fortrabbit, with local storage based on Memcached.
 
 # Configuration
 
-`
+```
 FB_PAGE_TOKEN=[facebook page token]
 FB_VERIFY_TOKEN=[the webhook verify token]
 TODOIST_CLIENT_ID=[todoist app client id]
 TODOIST_CLIENT_SECRET=[todoist app secret]
-`
+```
