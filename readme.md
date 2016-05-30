@@ -6,6 +6,8 @@ Built on Laravel, deployed to Fortrabbit, with local storage based on Memcached.
 
 # Configuration
 
+Update the .env file with these settings;
+
 ```
 FB_PAGE_TOKEN=[facebook page token]
 FB_VERIFY_TOKEN=[the webhook verify token]
